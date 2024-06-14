@@ -157,7 +157,6 @@ pub fn create_lookup_table_for_liquidity(ctx: Context<CreateLookupTableForLiquid
                solana_program::sysvar::rent::ID,
                libreplex_fair_launch::ID,
                sysvar_instructions_program::ID, 
-               libreplex_inscriptions::ID,
                mpl_token_metadata::ID,
                pool,
                lp_mint,
